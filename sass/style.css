@@ -1,0 +1,2088 @@
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head header {
+  margin-top: 25px;
+}
+.head header .logo {
+  width: 45%;
+}
+.head header .nav-btn {
+  color: #AA8453;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.head header .aside-menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+  width: 30%;
+  justify-content: center;
+  gap: 1.3rem;
+  background-color: white;
+  transform: translateY(-200vw);
+  transition: 0.7s;
+}
+.head header .aside-menu .nav-close {
+  width: 50px;
+  height: 50px;
+  margin-left: 320px;
+}
+.head header .aside-menu .a {
+  font-family: "Barlow", sans-serif;
+  font-weight: normal;
+  color: #000;
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin-left: 40px;
+  border-bottom: 1px solid rgb(247, 245, 245);
+}
+.head header .aside-menu .modebtn {
+  background-color: #AA8453;
+  color: #fff;
+  font-size: 1.1rem;
+  outline: none;
+  border-radius: 15px;
+  width: 90px;
+  height: 50px;
+  margin-left: 80px;
+}
+.head header .aside-menu .phone-icon {
+  color: #AA8453;
+  font-size: 1.7rem;
+}
+.head header .aside-menu .resar {
+  font-size: 1.1rem;
+  font-family: "Barlow", sans-serif;
+}
+.head header .aside-menu .phone-number {
+  color: #AA8453;
+  font-size: 1.7rem;
+  font-family: "Barlow", sans-serif;
+}
+.head header .responsive_nav {
+  transform: none !important;
+  transition: 0.7s;
+}
+
+.bg-hov1 {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  background: url(../images/slider3.jpg) no-repeat center center;
+  background-size: cover;
+}
+.bg-hov1 .bg1 {
+  width: 100%;
+  height: 800px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.bg-hov2 {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  background: url(../images/slider2.jpg) no-repeat center center;
+  background-size: cover;
+}
+.bg-hov2 .bg2 {
+  width: 100%;
+  height: 800px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.bg-hov3 {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  background: url(../images/slider1.jpg) no-repeat center center;
+  background-size: cover;
+}
+.bg-hov3 .bg3 {
+  width: 100%;
+  height: 800px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.karusel-box {
+  top: 220px;
+}
+.karusel-box .stars {
+  color: #E4A853;
+  font-size: 0.8rem;
+}
+.karusel-box h4 {
+  font-family: "Gilda Display", serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.3rem;
+}
+.karusel-box h1 {
+  font-family: "Gilda Display", serif;
+  font-size: 4.05rem;
+  padding: 5px;
+  margin-bottom: 15px;
+  letter-spacing: 0.9rem;
+}
+.karusel-box .roombtn {
+  border: 1px solid white;
+}
+
+.hero1 .stars {
+  color: #E4A853;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.hero1 .heromaintext {
+  font-family: "Barlow Condensed", serif;
+  font-size: 15px;
+  color: #666666;
+  margin: 0px 0px 5px;
+  letter-spacing: 0.3rem;
+}
+.hero1 .text {
+  font-family: serif;
+  color: #8d8d8d;
+  font-size: 16px;
+  margin: 0 0 15px;
+}
+.hero1 .herotxtlittle {
+  font-family: "Gilda Display", serif;
+  font-size: 45px;
+  color: #222222;
+  font-weight: normal !important;
+  letter-spacing: 0.3rem;
+}
+.hero1 .heroimg1 {
+  width: 340px;
+  height: 330px;
+  margin-right: 30px;
+  margin-top: 45px;
+}
+.hero1 .heroimg2 {
+  width: 340px;
+  height: 330px;
+}
+.hero1 .phone-icon {
+  color: #AA8453;
+  font-size: 1.7rem;
+  margin-bottom: 18px;
+}
+.hero1 .resar {
+  font-size: 1.1rem;
+  font-family: "Barlow", sans-serif;
+}
+.hero1 .phone-number {
+  color: #AA8453;
+  font-size: 1.5rem;
+  font-family: "Barlow", sans-serif;
+}
+
+.roomcont {
+  width: 100%;
+  background-color: #F8F5F0;
+}
+.roomcont .btnroomfilter {
+  background-color: #222222;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+}
+.roomcont .room-text1 {
+  font-family: "Gilda Display", serif;
+  font-weight: 100;
+  font-size: 0.9rem;
+  letter-spacing: 3px;
+  color: #222222;
+  padding: 10px;
+}
+.roomcont .room-text2 {
+  font-family: "Gilda Display", serif;
+  font-size: 2.7rem;
+  color: #222222;
+}
+
+.sliders {
+  background-color: #222222;
+  width: 100%;
+}
+.sliders .service-heading1-text {
+  color: #AA8453;
+  font-size: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.sliders .service-heading2-text {
+  font-family: "Gilda Display", serif;
+  font-size: 2.7rem;
+}
+.sliders .detail {
+  font-size: 15px;
+  color: #8d8d8d;
+  font-family: "Barlow", sans-serif;
+}
+.sliders .phone-icon {
+  color: #AA8453;
+  font-size: 1.7rem;
+  margin-bottom: 18px;
+}
+.sliders .resar {
+  color: #fff;
+  font-size: 1.1rem;
+  font-family: "Barlow", sans-serif;
+}
+.sliders .phone-number {
+  color: #AA8453;
+  font-size: 1.5rem;
+  font-family: "Barlow", sans-serif;
+}
+
+.promotional-background {
+  width: 100%;
+  height: 75vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/hotel.jpg);
+}
+.promotional-background .promhover {
+  width: 100%;
+  height: 75vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.promotional-background .promhover .promotional-star .stars {
+  color: #E4A853;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.promotional-background .promhover .name-hotel {
+  font-family: "Barlow ", serif;
+  font-size: 15px;
+  letter-spacing: 4px;
+  color: #ffffff;
+  margin: 0px 0px 5px;
+}
+.promotional-background .promhover .promotional-text {
+  font-size: 45px;
+  color: #fff;
+  font-family: "Gilda Display", serif;
+  margin-top: 10px;
+}
+
+.service-text1 {
+  font-family: "Barlow Condensed", serif;
+  font-size: 0.9rem;
+  letter-spacing: 3px;
+}
+
+.service-text2 {
+  font-family: "Gilda Display", serif;
+  font-size: 2.7rem;
+  color: #222222;
+}
+
+.featurbpx {
+  margin-top: 30px;
+}
+.featurbpx .featur {
+  margin-bottom: 30px !important;
+  border: 0.1rem solid #eeeeee;
+  position: relative;
+  display: flex;
+  height: 215px;
+  flex-direction: column;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease-in-out;
+  border-radius: 15px;
+}
+.featurbpx .featur:hover {
+  height: 320px;
+}
+.featurbpx .featur:hover .content {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+.featurbpx .featur .image {
+  position: relative;
+  width: 260px;
+  height: 200px;
+  left: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+.featurbpx .featur .image .feature-img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+.featurbpx .featur .image .featur-title {
+  color: #AA8453;
+  font-family: "Gilda Display", serif;
+  position: relative;
+}
+.featurbpx .featur .content {
+  position: relative;
+  top: -100px;
+  padding: 10px 15px;
+  color: #111;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.featurbpx .featur .content .featur-desc .service-text1 {
+  font-family: "Barlow", serif;
+  color: #222222;
+}
+
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  transition: 1s;
+}
+.card:hover .card-bod {
+  right: 0;
+  transition: 0.7s;
+}
+.card .card-img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+.card .card-bod {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: rgba(31, 61, 71, 0.2588235294);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: end;
+}
+.card .card-bod .card-tit {
+  font-size: 2rem;
+  color: #fff;
+  font-family: "Gilda-Display", serif;
+}
+.card .card-bod .subtitle {
+  color: #fff;
+  font-family: "Barlow-Condensed", serif;
+}
+.card .card-bod .mail {
+  color: #fff;
+  font-family: "Barlow-Condensed", serif;
+}
+
+.contact {
+  margin-top: 180px !important;
+}
+.contact .con-title {
+  font-size: 1.7rem;
+  font-family: "Barlow", serif;
+  color: #222222;
+}
+.contact .con-det {
+  font-size: 0.9rem;
+  font-family: "Barlow", serif;
+  color: #222222;
+}
+.contact .phone-icon {
+  color: #AA8453;
+  font-size: 1.8rem;
+  margin-bottom: 18px;
+}
+.contact .resar {
+  color: #222222;
+  font-size: 1.1rem;
+  font-family: "Barlow", sans-serif;
+}
+.contact .phone-number {
+  color: #AA8453;
+  font-size: 1rem;
+  font-family: "Barlow", sans-serif;
+}
+.contact .review {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.contact .sendbtn {
+  background-color: #AA8453 !important;
+  width: 150px;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.maps {
+  filter: grayscale(1);
+}
+
+.crd {
+  border: 0;
+}
+.crd .name {
+  color: #222222;
+  font-size: 24px;
+  margin: 0px 0px 20px;
+  font-family: "Gilda Display", serif;
+}
+.crd .amount {
+  color: #AA8453;
+  font-size: 45px;
+  font-family: "Gilda Display", serif;
+}
+.crd .amount span {
+  font-size: 15px;
+  color: #222222;
+}
+.crd .list-price {
+  color: #666666;
+  font-size: 15px;
+  font-family: "Barlow Condensed" serif;
+}
+.crd .list-price i.ok {
+  margin-right: 6px;
+  color: #AA8453 !important;
+}
+.crd .list-price .x {
+  margin-right: 6px;
+  color: #666666;
+}
+
+.sect .common-section {
+  width: 100%;
+  height: 60vh;
+  -webkit-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 50%, 0 100%, 0 0);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.sect .common-section .hotel {
+  font-size: 0.9rem;
+  color: #fff;
+  top: 100px;
+  position: absolute;
+  letter-spacing: 0.3rem;
+  font-family: "Barlow Condensed", serif;
+}
+.sect .common-section h2 {
+  position: absolute;
+  color: #fff;
+  margin-top: 130px;
+  font-size: 3.5rem;
+  font-family: "Gilda-Display", serif;
+}
+
+.prod .wrapper {
+  height: 400px;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+.prod .wrapper .proimg {
+  position: absolute;
+  width: 450px;
+  cursor: pointer;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  transition: all 1s;
+}
+.prod .wrapper .proimg:hover {
+  transform: scale(1.2);
+  filter: brightness(0.7);
+}
+.prod .wrapper .procontent {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  z-index: 9;
+  bottom: 5px;
+  left: 7px;
+}
+.prod .wrapper .procontent .title {
+  font-size: 1.4rem;
+  font-family: "Gilda Display", serif;
+  color: #fff;
+}
+.prod .wrapper .procontent .card-text {
+  font-family: "Barlow Condensed", serif;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  color: #fff;
+}
+.prod .wrapper .procontent .wish {
+  position: absolute;
+  left: 0;
+  top: -250px;
+  font-size: 1.2rem;
+  background: transparent;
+  z-index: 1000000000000;
+  border: 0;
+  outline: none;
+}
+.prod .btnbook {
+  border: 1px solid #88683e;
+  color: #88683e;
+  outline: none;
+  font-size: 1.3rem;
+  background: transparent;
+  bottom: 5px;
+}
+.prod .btndetails {
+  outline: none;
+  border: none;
+  font-size: 1.3rem;
+  background: transparent;
+  bottom: 5px;
+}
+.prod .btndetails a {
+  -webkit-text-decoration: underline #88683e;
+          text-decoration: underline #88683e;
+  color: #88683e;
+}
+
+.bg-testmionals {
+  margin-bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/room17.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bg-testmionals .bg-hover {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.bg-testmionals .bg-hover .text1 {
+  font-size: 10px;
+  color: #fff;
+  font-family: "Barlow-Condensed", serif;
+  margin-bottom: 0px;
+}
+.bg-testmionals .bg-hover .text2 {
+  font-size: 2.4rem;
+  color: #fff;
+  font-family: "Gilda-Display", serif;
+}
+.bg-testmionals .bg-hover .review-text {
+  font-size: 15px;
+  color: #fff;
+  font-family: "Barlow", serif;
+  margin-bottom: 0px;
+}
+.bg-testmionals .bg-hover .review-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.bg-testmionals .bg-hover .stars {
+  color: #E4A853;
+  font-size: 0.6rem;
+}
+.bg-testmionals .bg-hover .review-name {
+  color: #fff;
+  font-family: "Barlow", serif;
+}
+.bg-testmionals .bg-hover .guestn {
+  color: #fff !important;
+  font-family: "Barlow", serif;
+  font-size: 10px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+  .head .logo {
+    width: 70px !important;
+    margin-bottom: 17px;
+  }
+  .head .nav-btn {
+    font-size: 0.7rem !important;
+  }
+  .head .aside-menu {
+    width: 70% !important;
+    gap: 1rem !important;
+    transform: translateY(-800vh) !important;
+    height: 100vh !important;
+  }
+  .head .aside-menu .nav-close {
+    width: 25px;
+    height: 25px;
+    margin-left: 130px !important;
+  }
+  .head .aside-menu .a {
+    font-size: 0.9rem !important;
+    margin-left: 30px !important;
+  }
+  .head .aside-menu .modebtn {
+    font-size: 0.7rem !important;
+    width: 40px;
+    height: 30px;
+    margin-left: 80px;
+  }
+  .head .aside-menu .phone-icon {
+    font-size: 0.7rem !important;
+  }
+  .head .aside-menu .resar {
+    font-size: 0.7rem !important;
+  }
+  .head .aside-menu .phone-number {
+    font-size: 0.9rem !important;
+  }
+  .bg-hov1 .bg1 {
+    height: 500px !important;
+  }
+  .bg-hov2 .bg2 {
+    height: 500px !important;
+  }
+  .bg-hov3 .bg3 {
+    height: 500px !important;
+  }
+  .karusel-box {
+    top: 150px !important;
+  }
+  .karusel-box .stars {
+    font-size: 0.6rem !important;
+  }
+  .karusel-box h4 {
+    font-size: 0.6rem !important;
+    letter-spacing: 0.2rem !important;
+  }
+  .karusel-box h1 {
+    font-size: 1.7rem !important;
+    padding: 4px !important;
+    margin-bottom: 10px !important;
+    letter-spacing: 0.7rem !important;
+  }
+  .hero1 .stars {
+    font-size: 0.6rem;
+  }
+  .hero1 .heromaintext {
+    font-size: 13px;
+    letter-spacing: 0.2rem;
+  }
+  .hero1 .text {
+    font-size: 10px;
+  }
+  .hero1 .herotxtlittle {
+    font-size: 27px;
+    letter-spacing: 0.8rem;
+  }
+  .hero1 .heroimg1 {
+    width: 100%;
+    height: 330px;
+  }
+  .hero1 .heroimg2 {
+    display: none;
+  }
+  .hero1 .phone-icon {
+    display: none;
+  }
+  .hero1 .resar {
+    display: none;
+  }
+  .hero1 .phone-number {
+    display: none;
+  }
+  .roomcont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .roomcont .prod {
+    width: 1900px !important;
+  }
+  .roomcont .prod .room-text1 {
+    font-size: 0.7rem;
+  }
+  .roomcont .prod .room-text1 {
+    font-size: 2.1rem;
+  }
+  .prod {
+    width: 1900px !important;
+  }
+  .prod .room-text1 {
+    font-size: 0.7rem;
+  }
+  .prod .room-text2 {
+    font-size: 2.1rem;
+  }
+  .promotional-background {
+    height: 60vh !important;
+  }
+  .promotional-background .promhover {
+    height: 60vh !important;
+  }
+  .promotional-background .promhover .name-hotel {
+    font-size: 12px !important;
+    letter-spacing: 3px;
+  }
+  .promotional-background .promhover .promotional-text {
+    font-size: 26px !important;
+  }
+  .service-text1 {
+    font-size: 0.7rem;
+  }
+  .service-text2 {
+    font-size: 2.1rem;
+  }
+  .image {
+    width: 210px !important;
+    height: 150px !important;
+  }
+  .featur-title {
+    font-size: 14px;
+  }
+  .featur-desc {
+    margin-top: 24px;
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .head .logo {
+    width: 35% !important;
+  }
+  .head .nav-btn {
+    font-size: 0.7rem !important;
+  }
+  .head .aside-menu {
+    width: 50% !important;
+    gap: 1rem !important;
+  }
+  .head .aside-menu .nav-close {
+    width: 30px;
+    height: 30px;
+    margin-left: 250px !important;
+  }
+  .head .aside-menu .a {
+    font-size: 1.1rem !important;
+    margin-left: 30px;
+  }
+  .head .aside-menu .modebtn {
+    font-size: 0.7rem !important;
+    width: 40px;
+    height: 30px;
+    margin-left: 80px;
+  }
+  .head .aside-menu .phone-icon {
+    font-size: 1rem !important;
+  }
+  .head .aside-menu .resar {
+    font-size: 1rem !important;
+  }
+  .head .aside-menu .phone-number {
+    font-size: 1.1rem !important;
+  }
+  .bg-hov1 .bg1 {
+    height: 600px !important;
+  }
+  .bg-hov2 .bg2 {
+    height: 600px !important;
+  }
+  .bg-hov3 .bg3 {
+    height: 600px !important;
+  }
+  .karusel-box {
+    top: 180px !important;
+  }
+  .karusel-box .stars {
+    font-size: 0.7rem !important;
+  }
+  .karusel-box h4 {
+    font-size: 0.7rem !important;
+    letter-spacing: 0.2rem !important;
+  }
+  .karusel-box h1 {
+    font-size: 2.3rem !important;
+    padding: 5px !important;
+    margin-bottom: 15px !important;
+    letter-spacing: 0.8rem !important;
+  }
+  .hero1 .stars {
+    font-size: 0.7rem;
+  }
+  .hero1 .heromaintext {
+    font-size: 14px;
+    letter-spacing: 0.2rem;
+  }
+  .hero1 .text {
+    font-size: 12px;
+    margin: 0 0 15px;
+  }
+  .hero1 .herotxtlittle {
+    font-size: 35px;
+    letter-spacing: 0.2rem;
+  }
+  .hero1 .heroimg1 {
+    width: 800px !important;
+    margin-right: 0px;
+    margin-top: 45px;
+  }
+  .hero1 .heroimg2 {
+    display: none;
+  }
+  .hero1 .phone-icon {
+    display: none;
+  }
+  .hero1 .resar {
+    display: none;
+  }
+  .hero1 .phone-number {
+    display: none;
+  }
+  .roomcont .prod {
+    width: 1900px !important;
+  }
+  .roomcont .prod .room-text1 {
+    font-size: 0.8rem;
+  }
+  .promotional-background {
+    height: 60vh !important;
+  }
+  .promotional-background .promhover {
+    height: 60vh !important;
+  }
+  .promotional-background .promhover .name-hotel {
+    font-size: 12px !important;
+    letter-spacing: 3px;
+  }
+  .promotional-background .promhover .promotional-text {
+    font-size: 30px !important;
+  }
+  .service-text1 {
+    font-size: 0.8rem;
+  }
+  .service-text2 {
+    font-size: 2.4rem;
+  }
+  .image {
+    width: 230px !important;
+    height: 170px !important;
+  }
+  .featur-title {
+    font-size: 16px;
+  }
+  .featur-desc {
+    margin-top: 17px;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .head .logo {
+    width: 40% !important;
+  }
+  .head .nav-btn {
+    font-size: 0.8rem !important;
+  }
+  .head .aside-menu {
+    width: 40% !important;
+    gap: 1.2rem !important;
+  }
+  .head .aside-menu .nav-close {
+    width: 35px;
+    height: 35px;
+    margin-left: 270px !important;
+  }
+  .head .aside-menu .a {
+    font-size: 1rem !important;
+    margin-left: 30px;
+  }
+  .head .aside-menu .modebtn {
+    font-size: 0.8rem !important;
+    width: 45px;
+    height: 30px;
+    margin-left: 80px;
+  }
+  .head .aside-menu .phone-icon {
+    font-size: 1.1rem !important;
+  }
+  .head .aside-menu .resar {
+    font-size: 1.1rem !important;
+  }
+  .head .aside-menu .phone-number {
+    font-size: 1.2rem !important;
+  }
+  .bg-hov1 .bg1 {
+    height: 700px !important;
+  }
+  .bg-hov2 .bg2 {
+    height: 700px !important;
+  }
+  .bg-hov3 .bg3 {
+    height: 700px !important;
+  }
+  .karusel-box {
+    top: 200px !important;
+  }
+  .karusel-box .stars {
+    font-size: 0.7rem !important;
+  }
+  .karusel-box h4 {
+    font-size: 0.7rem !important;
+    letter-spacing: 0.3rem !important;
+  }
+  .karusel-box h1 {
+    font-size: 3rem !important;
+    padding: 5px !important;
+    margin-bottom: 15px !important;
+    letter-spacing: 0.8rem !important;
+  }
+  .hero1 .stars {
+    font-size: 0.7rem;
+  }
+  .hero1 .heromaintext {
+    font-size: 15px;
+    letter-spacing: 0.2rem;
+  }
+  .hero1 .text {
+    font-size: 12px;
+    margin: 0 0 15px;
+  }
+  .hero1 .herotxtlittle {
+    font-size: 38px;
+    letter-spacing: 0.2rem;
+  }
+  .hero1 .phone-icon {
+    display: none;
+  }
+  .hero1 .resar {
+    display: none;
+  }
+  .hero1 .phone-number {
+    display: none;
+  }
+  .promotional-background {
+    height: 60vh !important;
+  }
+  .promotional-background .promhover {
+    height: 60vh !important;
+  }
+  .promotional-background .promhover .name-hotel {
+    font-size: 12px !important;
+    letter-spacing: 3px;
+  }
+  .promotional-background .promhover .promotional-text {
+    font-size: 30px !important;
+  }
+  .service-text1 {
+    font-size: 0.9rem;
+  }
+  .service-text2 {
+    font-size: 2.6rem;
+  }
+  .image {
+    width: 230px !important;
+    height: 170px !important;
+  }
+  .featur-title {
+    font-size: 16px;
+  }
+  .featur-desc {
+    margin-top: 17px;
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 3000px) {
+  .room-text2 {
+    font-size: 3.3rem !important;
+  }
+  .head .nav-btn {
+    font-size: 1.4rem !important;
+  }
+  .head .aside-menu {
+    width: 38%;
+    gap: 1.2rem !important;
+  }
+  .head .aside-menu .nav-close {
+    width: 35px;
+    height: 35px;
+    margin-left: 300px !important;
+  }
+  .head .aside-menu .a {
+    font-size: 1.3rem !important;
+    margin-left: 35px;
+  }
+  .head .aside-menu .modebtn {
+    font-size: 1.2rem !important;
+    width: 45px;
+    height: 30px;
+    margin-left: 80px;
+  }
+  .head .aside-menu .phone-icon {
+    font-size: 1.2rem !important;
+  }
+  .head .aside-menu .resar {
+    font-size: 1.2rem !important;
+  }
+  .head .aside-menu .phone-number {
+    font-size: 1.3rem !important;
+  }
+  .bg-hov1 .bg1 {
+    height: 800px !important;
+  }
+  .bg-hov2 .bg2 {
+    height: 800px !important;
+  }
+  .bg-hov3 .bg3 {
+    height: 800px !important;
+  }
+  .karusel-box {
+    top: 230px !important;
+  }
+  .karusel-box .stars {
+    font-size: 0.7rem !important;
+  }
+  .karusel-box h4 {
+    font-size: 0.7rem !important;
+    letter-spacing: 0.3rem !important;
+  }
+  .karusel-box h1 {
+    font-size: 5rem;
+    padding: 5px !important;
+    margin-bottom: 15px !important;
+    letter-spacing: 0.8rem !important;
+  }
+  .hero1 .stars {
+    font-size: 0.7rem;
+  }
+  .hero1 .heromaintext {
+    font-size: 17px !important;
+    letter-spacing: 0.2rem;
+  }
+  .hero1 .text {
+    font-size: 20px;
+  }
+  .hero1 .herotxtlittle {
+    font-size: 3.1rem !important;
+    letter-spacing: 0.8rem;
+  }
+  .hero1 .heroimg1 {
+    width: 500px !important;
+    height: 430px !important;
+    margin-right: 30px;
+    margin-top: 45px;
+  }
+  .hero1 .heroimg2 {
+    width: 500px !important;
+    height: 430px !important;
+  }
+  .hero1 .phone-icon {
+    font-size: 2.1rem !important;
+    margin-bottom: 18px;
+  }
+  .hero1 .resar {
+    font-size: 1.4rem !important;
+  }
+  .hero1 .phone-number {
+    font-size: 1.6rem;
+  }
+  .promotional-background {
+    height: 60vh !important;
+  }
+  .promotional-background .promhover {
+    height: 60vh !important;
+  }
+  .promotional-background .promhover .name-hotel {
+    font-size: 12px !important;
+    letter-spacing: 3px;
+  }
+  .promotional-background .promhover .promotional-text {
+    font-size: 3.3rem;
+  }
+  .service-text1 {
+    font-size: 0.8rem;
+  }
+  .service-text2 {
+    font-size: 3.4rem !important;
+  }
+  .image {
+    width: 300px !important;
+    height: 180px !important;
+  }
+  .featur-title {
+    font-size: 20px;
+  }
+  .featur-desc {
+    margin-top: 27px;
+    font-size: 18px;
+  }
+  .sliders .service-heading1-text {
+    font-size: 15px;
+  }
+  .sliders .service-heading2-text {
+    margin-top: 10px;
+    font-size: 3.3rem !important;
+  }
+  .sliders .detail {
+    font-size: 18px;
+    color: #8d8d8d;
+    font-family: "Barlow", sans-serif;
+  }
+  .sliders .phone-icon {
+    font-size: 1.9rem !important;
+    margin-bottom: 18px;
+  }
+  .sliders .resar {
+    font-size: 1.6rem !important;
+  }
+  .sliders .phone-number {
+    font-size: 1.5rem;
+  }
+}
+.dark {
+  transition: 0.6s;
+  background-color: #222222;
+  color: #eee;
+}
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6, .dark p, .dark span, .dark td {
+  color: #eee !important;
+}
+.dark .card {
+  background-color: #222222 !important;
+}
+.dark .name, .dark .as {
+  color: #000 !important;
+}
+.dark .head {
+  background-color: #222222;
+}
+.dark .head .aside-menu {
+  background-color: #222222 !important;
+}
+.dark .head .aside-menu li a {
+  color: #fff !important;
+}
+.dark .roomcont {
+  background-color: #222222 !important;
+}
+.dark .date-background {
+  background-color: #222222 !important;
+}
+.dark .date-background .date-general-box {
+  background-color: #222222 !important;
+}
+.dark .discover {
+  background-color: #222222 !important;
+}
+.dark .discover .bg {
+  background-color: #222222 !important;
+}
+
+.light {
+  transition: 0.6s;
+  background-color: #eee;
+  color: #222222;
+}
+
+.date-background {
+  background-color: #F8F5F0;
+  width: 100%;
+  height: 30vh;
+}
+.date-background .search-text1 {
+  margin-top: 150px !important;
+  font-family: "Barlow Condensed", serif;
+  font-size: 0.9rem;
+  padding-top: 50px;
+  letter-spacing: 3px;
+}
+.date-background .search-text2 {
+  font-family: "Gilda Display", serif;
+  font-size: 2.7rem;
+  color: #222222;
+}
+.date-background .date-general-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+.date-background .date-general-box .date-box .dt {
+  height: 40px;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: "Gilda-Display", serif;
+  color: #222222;
+}
+.date-background .date-general-box .date-box .dt option:hover {
+  background: #AA8453 !important;
+}
+.date-background .date-general-box .check-button {
+  background-color: #AA8453;
+  height: 60px;
+  width: 100px;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  font-family: "Barlow-Condensed", serif;
+  color: #fff;
+}
+
+.room-text2 {
+  font-size: 2.7rem;
+  font-family: "Gilda-Display", serif;
+}
+
+.room-text1 {
+  font-size: 0.9rem;
+  font-family: "Barlow", serif;
+}
+
+.detailroom {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 75vh;
+}
+
+.full-card .detailphoto {
+  height: 270px;
+  width: 400px;
+  border-radius: 5px;
+  margin-bottom: 10px !important;
+  display: block;
+}
+.full-card .luxury {
+  font-size: 0.9rem;
+  font-family: "Barlow-Condensed", serif;
+  letter-spacing: 3px;
+}
+.full-card .det-title {
+  font-size: 1.5rem;
+  color: #AA8453;
+  font-family: "Gilda-Display", serif;
+  letter-spacing: 3px;
+}
+.full-card p {
+  font-size: 1rem;
+  font-family: "Barlow-Condensed";
+}
+.full-card h6 {
+  font-size: 1.2rem;
+  font-family: "Barlow-Condensed";
+  color: #AA8453;
+}
+
+.releatedroom {
+  width: 100%;
+  background-color: #222;
+  padding: 20px;
+}
+.releatedroom .simitext {
+  font-size: 2.4rem;
+  color: #fff;
+  font-family: "Gilda-Display", serif;
+}
+
+.tabs {
+  border-bottom: 1px solid #fde4e4;
+}
+
+.tabs h6 {
+  cursor: pointer;
+}
+
+.tab-content p {
+  line-height: 30px;
+  color: #212245;
+}
+
+.tab-active {
+  color: #df2020;
+}
+
+.tab-content {
+  padding: 30px 0px;
+}
+
+.form {
+  width: 60%;
+  margin: auto;
+  background: #fde4e4;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+.form-group .form-group input, .form-group .form-group textarea {
+  width: 100%;
+  background: transparent;
+  padding: 7px 20px;
+  border: none;
+  border-bottom: 1px solid rgba(33, 34, 69, 0.2980392157);
+}
+.form-group .user-name {
+  font-weight: 600;
+  color: #212245;
+}
+.form-group .user-email {
+  font-size: 0.8rem;
+}
+.form-group .feedback-text {
+  color: rgba(33, 34, 69, 0.7137254902);
+}
+.form-group .img-item {
+  cursor: pointer;
+}
+
+.cont {
+  width: 100%;
+  height: 90vh;
+  background-image: url(../images/rest1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.cont .conthov {
+  width: 100%;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.restaurant-menu .foodImg1 {
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50% 0px 0% 0px;
+  background-image: url(../images/burgermenu1.jpg);
+  width: 200px;
+  height: 230px;
+  background-position: center;
+  background-size: cover;
+}
+.restaurant-menu .foodImg2 {
+  border: 1px solid #fff;
+  border-radius: 50% 50% 0px 0px;
+  background-image: url(../images/desertmenu1.jpg);
+  width: 200px;
+  height: 230px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.restaurant-menu .foodImg3 {
+  border: 1px solid #fff;
+  border-radius: 50% 50% 0px 0px;
+  background-image: url(../images/desertmenu3.jpg);
+  width: 200px;
+  height: 230px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.restaurant-menu .foodImg4 {
+  border: 1px solid #fff;
+  border-radius: 50% 0px 0% 0px;
+  background-image: url(../images/saladrest1.jpg);
+  width: 200px;
+  height: 230px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.restaurant-menu .rest-subtitle {
+  font-family: "Barlow-Condensed", serif;
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+  color: #AA7333;
+}
+.restaurant-menu .rest-title {
+  font-family: "Gilda-Display", serif;
+  font-size: 1.9rem;
+  color: #fff;
+}
+.restaurant-menu .category-title {
+  font-family: "Gilda-Display", serif;
+  color: #AA7333 !important;
+  font-size: 1.7rem !important;
+  margin-bottom: 35px;
+}
+.restaurant-menu .menu-info .foodname {
+  font-family: "Barlow", serif;
+  font-size: 1.1rem;
+  color: #fff;
+}
+.restaurant-menu .menu-info .price {
+  font-family: "Barlow", serif;
+  font-size: 1.1rem;
+  color: #AA7333;
+}
+.restaurant-menu .menu-info .ingridients {
+  border-bottom: 1px dotted #AA7333;
+  color: #222;
+}
+
+.heros {
+  position: relative;
+}
+.heros .restohero1 {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  right: -100px;
+  top: 0px;
+}
+.heros .restohero2 {
+  position: absolute;
+  width: 400px;
+  top: 50px;
+  right: 190px;
+  bottom: 0;
+}
+
+.inter {
+  width: 100%;
+  height: 68vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 235, 220);
+  padding: 30px;
+}
+.inter .resttitle {
+  z-index: 99;
+  font-size: 3rem;
+  color: #AA7333 !important;
+  font-family: "Gilda-Display";
+}
+.inter .bg1 {
+  border-radius: 0px 40% 0px 40%;
+  opacity: 0;
+  transition: 0.6s;
+}
+.inter .bg1:hover {
+  opacity: 1;
+  transform: translateX(10px);
+}
+.inter .bg2 {
+  border-radius: 40% 0px 0px 40%;
+  opacity: 0;
+  transition: 0.6s;
+}
+.inter .bg2:hover {
+  opacity: 1;
+  transform: translateY(10px);
+}
+.inter .bg3 {
+  border-radius: 40% 40% 0px 0px;
+  opacity: 0;
+  transition: 0.6s;
+}
+.inter .bg3:hover {
+  opacity: 1;
+  transform: translateX(11px);
+}
+.inter .bg4 {
+  border-radius: 50% 40% 30% 0px;
+  opacity: 0;
+  transition: 0.6s;
+}
+.inter .bg4:hover {
+  opacity: 1;
+  transform: translateX(-13px);
+}
+.inter .bg5 {
+  border-radius: 40% 0px 40% 0px;
+  opacity: 0;
+  transition: 0.6s;
+}
+.inter .bg5:hover {
+  opacity: 1;
+  transform: translateX(-15px);
+}
+.inter .bg6 {
+  border-radius: 50% 40% 30% 0px;
+  opacity: 0;
+  transition: 0.6s;
+}
+.inter .bg6:hover {
+  opacity: 1;
+  transform: translateY(-15px);
+}
+
+.table {
+  overflow-y: scroll !important;
+}
+.table th {
+  color: rgb(170, 132, 83);
+  font-size: 27px;
+  font-family: "Gilda-Display" !important;
+}
+.table td {
+  color: #222;
+  font-size: 24px;
+  font-family: "Barlow";
+}
+.table td button {
+  padding: 10px;
+  width: 30px;
+  font-family: "Barlow-Condensed";
+}
+
+.tb .total {
+  font-size: 25px !important;
+  font-family: "Gilda-Display";
+}
+
+.sub, .clear {
+  border: none;
+  background-color: rgb(175, 137, 90) !important;
+  color: #fff !important;
+  font-size: 23px !important;
+}
+
+.emptytext {
+  font-size: 3rem;
+  font-family: "Gilda-Display";
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: "Barlow", serif;
+  background: url("../images/whlog.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+input[type=text],
+input[type=password] {
+  height: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  padding: 15px;
+}
+
+.button {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #222 !important;
+  border: 1px solid #222222;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.button:hover {
+  background: #aaa;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: #be9257;
+  padding: 70px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px;
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  font-family: "Gilda-Display";
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: "Gilda-Display";
+}
+
+.success {
+  font-family: "Gilda-Display";
+  font-size: 18px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+.wimg {
+  height: 100% !important;
+  width: 130%;
+}
+
+.wtitle {
+  color: #388aaa;
+  font-size: 1.5rem;
+  font-family: "Gilda-Display";
+}
+
+.wnum {
+  font-size: 1rem;
+  font-family: "Barlow";
+}
+.wnum span {
+  color: #388aaa;
+  font-size: 1.2rem;
+  font-family: "Gilda-Display";
+}
+
+.vbtn {
+  background-color: rgba(56, 138, 170, 0.6039215686) !important;
+  border: none;
+  padding: 6px;
+  color: #AA8453 !important;
+  font-size: 1rem;
+  font-family: "Barlow";
+}
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+  .crd {
+    border: 0;
+  }
+  .crd .name {
+    font-size: 18px;
+    margin: 0px 0px 20px;
+  }
+  .crd .amount {
+    font-size: 38px;
+  }
+  .crd .amount span {
+    font-size: 12px;
+  }
+  .crd .list-price {
+    font-size: 12px;
+  }
+  .service-heading1-text {
+    font-size: 11px;
+  }
+  .service-heading2-text {
+    font-size: 2.1rem;
+  }
+  .phone-icon {
+    font-size: 0.7rem !important;
+    margin: 0px;
+  }
+  .resar {
+    font-size: 1.1rem !important;
+  }
+  .phone-number {
+    font-size: 1.1rem !important;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .crd .name {
+    font-size: 20px;
+    margin: 0px 0px 20px;
+  }
+  .crd .amount {
+    font-size: 40px;
+  }
+  .crd .amount span {
+    font-size: 15px;
+  }
+  .crd .list-price {
+    font-size: 15px;
+  }
+  .service-heading1-text {
+    font-size: 15px;
+  }
+  .service-heading2-text {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .service-heading2-text {
+    font-size: 2.6rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .service-heading2-text {
+    font-size: 2.7rem;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+  .date-background .search-text1 {
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+  }
+  .date-background .search-text2 {
+    font-size: 2.1rem;
+  }
+  .date-background .date-general-box {
+    width: 100%;
+    height: 100px;
+  }
+  .date-background .date-general-box .date-box {
+    width: 100% !important;
+  }
+  .date-background .date-general-box .date-box .dt {
+    height: 40px;
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: "Gilda-Display", serif;
+    color: #222222;
+  }
+  .date-background .date-general-box .date-box .dt option:hover {
+    background: #AA8453 !important;
+  }
+  .date-background .date-general-box .check-button {
+    height: 20px;
+    width: 70px;
+  }
+  .bg-testmionals {
+    height: 90vh;
+  }
+  .bg-testmionals .bg-hover {
+    height: 90vh;
+  }
+  .bg-testmionals .bg-hover .text1 {
+    font-size: 7px;
+  }
+  .bg-testmionals .bg-hover .text2 {
+    font-size: 2rem;
+  }
+  .sect {
+    height: 40vh !important;
+  }
+  .sect .common-section {
+    height: 40vh;
+  }
+  .sect .common-section .hotel {
+    font-size: 0.7rem;
+    color: #fff;
+    top: 100px;
+    position: absolute;
+    letter-spacing: 0.3rem;
+    font-family: "Barlow Condensed", serif;
+  }
+  .sect .common-section h2 {
+    position: absolute;
+    color: #fff;
+    margin-top: 130px;
+    font-size: 2.9rem;
+    font-family: "Gilda-Display", serif;
+  }
+  .table {
+    overflow-y: scroll !important;
+  }
+  .table th {
+    font-size: 19px;
+  }
+  .table td {
+    font-size: 16px;
+  }
+  .total {
+    font-size: 19px !important;
+  }
+  .emptytext {
+    font-size: 2rem !important;
+  }
+  .contact {
+    margin-top: 180px !important;
+  }
+  .contact .con-title {
+    font-size: 1.4rem !important;
+  }
+  .contact .con-det {
+    font-size: 0.7rem !important;
+  }
+  .contact .conicon {
+    margin-left: 0;
+  }
+  .contact .conicon .phone-icon {
+    font-size: 1.5rem !important;
+    margin-bottom: 0;
+  }
+  .contact .conicon .resar {
+    font-size: 1.1rem;
+  }
+  .contact .conicon .phone-number {
+    font-size: 1.3rem;
+  }
+  .contact .sendbtn {
+    width: 120px;
+  }
+  .bg {
+    padding: 30px;
+    background-color: hsl(38, 36%, 96%);
+  }
+  .bg .discover-text1 {
+    font-size: 0.6rem;
+    color: #222222;
+    font-family: "Barlow-Condensed", serif;
+  }
+  .bg .discover-text2 {
+    font-size: 5rem !important;
+  }
+  .bg .about-text {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .bg-testmionals {
+    height: 90vh;
+  }
+  .bg-testmionals .bg-hover {
+    height: 90vh;
+  }
+  .bg-testmionals .bg-hover .text1 {
+    font-size: 7px;
+  }
+  .bg-testmionals .bg-hover .text2 {
+    font-size: 2.7rem;
+  }
+  .sect {
+    height: 40vh !important;
+  }
+  .sect .common-section {
+    height: 40vh;
+  }
+  .sect .common-section .hotel {
+    font-size: 0.7rem;
+    color: #fff;
+    top: 100px;
+    position: absolute;
+    letter-spacing: 0.3rem;
+    font-family: "Barlow Condensed", serif;
+  }
+  .sect .common-section h2 {
+    position: absolute;
+    color: #fff;
+    margin-top: 130px;
+    font-size: 2.9rem;
+    font-family: "Gilda-Display", serif;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 2500px) {
+  .bg-testmionals {
+    height: 100vh;
+  }
+  .bg-testmionals .bg-hover {
+    height: 100vh;
+  }
+  .bg-testmionals .bg-hover .text1 {
+    font-size: 7px;
+  }
+  .bg-testmionals .bg-hover .text2 {
+    font-size: 3rem;
+  }
+  .sect {
+    height: 60vh !important;
+  }
+  .sect .common-section {
+    height: 60vh;
+  }
+  .sect .common-section .hotel {
+    font-size: 0.9rem !important;
+    color: #fff;
+    top: 150px;
+    position: absolute;
+    letter-spacing: 0.3rem;
+    font-family: "Barlow Condensed", serif;
+  }
+  .sect .common-section h2 {
+    position: absolute;
+    color: #fff;
+    margin-top: 180px;
+    font-size: 4.5rem;
+    font-family: "Gilda-Display", serif;
+  }
+  .discover {
+    width: 100%;
+    background-color: beige;
+  }
+  .discover .bg {
+    background-color: hsl(38, 36%, 96%);
+  }
+  .discover .bg .discover-text1 {
+    font-size: 0.9rem;
+    color: #222222;
+    font-family: "Barlow-Condensed", serif;
+  }
+  .discover .bg .discover-text2 {
+    font-size: 2.8rem !important;
+  }
+  .discover .bg .about-text {
+    font-size: 1.1rem;
+  }
+  .search-text1 {
+    margin-top: 150px !important;
+    font-family: "Barlow Condensed", serif;
+    font-size: 1rem !important;
+    padding-top: 50px;
+    letter-spacing: 3px;
+  }
+  .search-text2 {
+    font-family: "Gilda Display", serif;
+    font-size: 3.3rem !important;
+    color: #222222;
+  }
+  .date-general-box .date-box .dt {
+    font-size: 23px !important;
+  }
+  .date-general-box .check-button {
+    font-size: 20px !important;
+  }
+  .contact {
+    margin-top: 180px !important;
+  }
+  .contact .con-title {
+    font-size: 2.8rem !important;
+    font-family: "Gilda-Display";
+    color: #a07c4c;
+  }
+  .contact .con-det {
+    font-size: 1.1rem !important;
+    font-family: "Barlow-Condensed";
+  }
+  .contact .phone-icon {
+    font-size: 1.8rem !important;
+    margin-bottom: 0;
+  }
+  .contact .resar {
+    font-family: "Barlow-Condensed";
+    font-size: 1.3rem !important;
+  }
+  .contact .phone-number {
+    font-size: 1.3rem;
+  }
+  .contact .sendbtn {
+    margin-top: 100px !important;
+    width: 120px;
+  }
+}
+.foottext {
+  font-size: 1.6rem;
+  font-family: "Gilda-Display", serif;
+}
+
+.ftxt {
+  font-size: 1.2rem;
+  font-family: "Barlow-Condensed", serif;
+}
+
+.bttn {
+  outline: none;
+  border: none;
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  font-family: "Gilda-Display", serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.bttn:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(158, 120, 74);
+  border-radius: 10rem;
+  z-index: -2;
+}
+.bttn:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #6a5032;
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.bttn:hover {
+  color: #fff;
+}
+.bttn:hover:before {
+  width: 100%;
+}
+
+.discover {
+  width: 100%;
+  background-color: #fff;
+}
+.discover .bg {
+  padding: 30px;
+  background-color: hsl(38, 36%, 96%);
+}
+.discover .bg .discover-text1 {
+  font-size: 0.8rem;
+  color: #222222;
+  font-family: "Barlow-Condensed", serif;
+}
+.discover .bg .discover-text2 {
+  font-size: 2.7rem !important;
+  color: #222222;
+  font-family: "Gilda-Display", serif !important;
+}
+.discover .bg .about-text {
+  font-size: 1rem;
+  color: #222222;
+  font-family: "Barlow", serif;
+}
+.discover .bg .learn-btn {
+  font-family: "Barlow", serif;
+}
+.discover .test-shine {
+  -webkit-mask-image: linear-gradient(45deg, #000 25%, rgba(0, 0, 0, 0.2) 50%, #000 75%);
+  mask-image: linear-gradient(45deg, #000 25%, rgba(0, 0, 0, 0.2) 50%, #000 75%);
+  -webkit-mask-size: 800%;
+  mask-size: 800%;
+  -webkit-mask-position: 0;
+  mask-position: 0;
+}
+.discover .test-shine:hover {
+  transition: mask-position 2s ease, -webkit-mask-position 2s ease;
+  -webkit-mask-position: 120%;
+  mask-position: 120%;
+  opacity: 1;
+}
+
+.blog-title {
+  font-family: "Gilda-Display";
+}
+
+.blog-text {
+  font-family: "Barlow-Condensed";
+}
+
+.cardblog .blogbody {
+  background-color: rgb(247, 247, 230);
+}/*# sourceMappingURL=style.css.map */

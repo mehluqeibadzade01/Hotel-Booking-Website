@@ -1,0 +1,825 @@
+$xs:200px;
+$small:576px;
+$medium:768px;
+$large: 992px;
+$xlarge:3000px;
+
+
+@media only screen and (min-width:$xs) and (max-width: $small) {
+
+   
+   .head{
+    
+    .logo{
+        width: 70px !important;
+        margin-bottom: 17px;
+       
+    }
+    .nav-btn{
+      
+        font-size: .7rem !important;
+       
+    }
+    
+    
+       
+    .aside-menu{
+      width: 70% !important;
+      gap: 1rem !important;
+      transform: translateY(-800vh) !important;
+      height: 100vh !important;
+      .nav-close{
+            
+       width: 25px;
+       height: 25px;
+       margin-left:130px !important;
+     
+       
+   }
+   .a{
+       
+       font-size: .9rem !important;
+       
+       margin-left: 30px !important;
+       
+      }
+      .modebtn{
+       
+       font-size: .7rem !important;
+       width: 40px;
+       height: 30px;
+       margin-left: 80px;
+
+      }
+      .phone-icon{
+       
+       font-size: .7rem !important;
+      }
+      .resar{
+       font-size: .7rem !important;
+     
+      }
+      .phone-number{ 
+       font-size: .9rem !important;
+       }
+   
+     
+   }
+           
+        
+    
+        
+          } 
+        
+         .bg-hov1{
+             .bg1{
+            
+               height: 500px !important;
+              
+              
+             }
+           
+           }
+           .bg-hov2{
+             
+             .bg2{
+             
+              height:  500px !important;
+            
+             }
+           
+           }
+           .bg-hov3{
+           
+           
+             .bg3{
+               
+               height: 500px !important;
+               
+            
+             }
+           
+           }
+           .karusel-box{
+             top: 150px !important;
+             
+           .stars{
+          
+             font-size: .6rem !important;
+            
+           }
+             h4{
+               
+                 font-size: .6rem !important;
+                 letter-spacing: .2rem !important;
+             }
+         
+             h1{
+                
+                 font-size: 1.7rem !important;
+                 padding: 4px !important;
+              
+                 margin-bottom: 10px !important;
+                 letter-spacing: .7rem !important;
+             }
+           
+                }
+          .hero1{
+            .stars{
+            
+            font-size: .6rem;
+        
+            }
+            .heromaintext{
+              
+              font-size: 13px;
+          
+             
+              letter-spacing: .2rem;
+            }
+            .text{
+           
+              font-size: 10px;
+            
+              
+            }
+        .herotxtlittle{
+         
+          font-size: 27px;
+         
+          letter-spacing: .8rem;
+        }
+            
+            .heroimg1{width: 100%;
+              height: 330px;
+            }
+            .heroimg2{
+            display: none;
+              
+            }
+            .phone-icon{
+              display: none;
+             }
+             .resar{
+             display: none;
+             }
+             .phone-number{display: none;}
+           }
+           .roomcont{display: flex;
+            flex-direction: column;
+           justify-content: center;
+            .prod{width:1900px!important;
+              .room-text1{
+                font-size: .7rem;
+              }
+              .room-text1{
+                font-size: 2.1rem;
+              }
+              
+            }
+           }
+           .prod{width:1900px!important;
+            .room-text1{
+              font-size: .7rem;
+            }
+            .room-text2{
+              font-size: 2.1rem;
+            }
+            
+          }
+         
+           .promotional-background{
+            height: 60vh !important;
+            .promhover{height: 60vh !important;
+              .name-hotel{
+                font-size: 12px !important;
+                letter-spacing: 3px;
+            }
+            .promotional-text{
+                font-size:26px !important;
+            
+            }
+            }
+            
+           }
+           .service-text1{
+            font-size: .7rem;
+           }
+           .service-text2{
+           
+        font-size: 2.1rem;
+       
+          }
+          .image{
+         
+          width : 210px !important;
+          height : 150px !important;
+          }   
+          .featur-title  {
+            font-size: 14px;
+          
+          }   
+          .featur-desc{
+            margin-top: 24px;
+            font-size: 10px;
+          }
+       
+           
+   }
+ 
+   @media only screen and (min-width:$small)  and (max-width: $medium) {
+    .head{
+     
+     .logo{
+         width: 35% !important;
+        
+     }
+     .nav-btn{
+       
+         font-size: .7rem !important;
+        
+     }
+     .aside-menu{
+        width: 50% !important;
+        gap: 1rem !important;
+        .nav-close{
+              
+         width: 30px;
+         height: 30px;
+         margin-left:250px !important;
+       
+         
+     }
+     .a{
+         
+         font-size: 1.1rem !important;
+         
+         margin-left: 30px;
+         
+        }
+        .modebtn{
+         
+         font-size: .7rem !important;
+         width: 40px;
+         height: 30px;
+         margin-left: 80px;
+ 
+        }
+        .phone-icon{
+         
+         font-size: 1rem !important;
+        }
+        .resar{
+         font-size: 1rem !important;
+       
+        }
+        .phone-number{ 
+         font-size: 1.1rem !important;
+         }
+     }
+     
+     }
+     .bg-hov1{
+     
+        .bg1{
+          
+          height: 600px !important;
+         
+        }
+      
+      }
+      .bg-hov2{
+        
+        .bg2{
+        
+         height:  600px !important;
+       
+        }
+      
+      }
+      .bg-hov3{
+      
+      
+        .bg3{
+          
+          height: 600px !important;
+          
+       
+        }
+      
+      }
+      .karusel-box{
+        top: 180px !important;
+        
+      .stars{
+     
+        font-size: .7rem !important;
+       
+      }
+        h4{
+          
+            font-size: .7rem !important;
+            letter-spacing: .2rem !important;
+        }
+    
+        h1{
+           
+            font-size: 2.3rem !important;
+            padding: 5px !important;
+         
+            margin-bottom: 15px !important;
+            letter-spacing: .8rem !important;
+        }
+      
+           }
+           .hero1{
+            .stars{
+            
+            font-size: .7rem;
+        
+            }
+            .heromaintext{
+              
+              font-size: 14px;
+          
+             
+              letter-spacing: .2rem;
+            }
+            .text{
+           
+              font-size: 12px;
+              margin: 0 0 15px;
+              
+            }
+        .herotxtlittle{
+         
+          font-size: 35px;
+         
+          letter-spacing: .2rem;
+        }
+            
+            .heroimg1{width: 800px!important;
+              margin-right: 0px;
+              margin-top: 45px;
+            }
+            .heroimg2{
+              display: none;
+              
+            }
+            .phone-icon{
+              display: none;
+             }
+             .resar{
+             display: none;
+             }
+             .phone-number{display: none;}
+           }
+           .roomcont{
+            .prod{width:1900px!important;
+              .room-text1{
+                font-size: .8rem;
+              }
+              
+              
+            }
+           }
+           .promotional-background{
+            height: 60vh !important;
+            .promhover{height: 60vh !important;
+              .name-hotel{
+                font-size: 12px !important;
+                letter-spacing: 3px;
+            }
+            .promotional-text{
+                font-size:30px !important;
+            
+            }
+            }
+            
+           }
+           .service-text1{
+            font-size: .8rem;
+           }
+           .service-text2{
+           
+        font-size: 2.4rem;
+       
+          }
+          .image{
+         
+          width : 230px !important;
+          height : 170px !important;
+          }   
+          .featur-title  {
+            font-size: 16px;
+          
+          }   
+          .featur-desc{
+            margin-top: 17px;
+            font-size: 12px;
+          }
+    }
+    @media only screen and (min-width:$medium)  and (max-width: $large) {
+        .head{
+         
+         .logo{
+             width: 40% !important;
+            
+         }
+         .nav-btn{
+           
+             font-size: .8rem !important;
+            
+         }
+         .aside-menu{
+            width: 40% !important;
+            gap: 1.2rem !important;
+            .nav-close{
+                  
+             width: 35px;
+             height: 35px;
+             margin-left:270px !important;
+           
+             
+         }
+         .a{
+             
+             font-size: 1rem !important;
+             
+             margin-left: 30px;
+             
+            }
+            .modebtn{
+             
+             font-size: .8rem !important;
+             width: 45px;
+             height: 30px;
+             margin-left: 80px;
+     
+            }
+            .phone-icon{
+             
+             font-size: 1.1rem !important;
+            }
+            .resar{
+             font-size: 1.1rem !important;
+           
+            }
+            .phone-number{ 
+             font-size: 1.2rem !important;
+             }
+         }
+         
+         }
+         .bg-hov1{
+     
+            .bg1{
+              
+              height: 700px !important;
+             
+            }
+          
+          }
+          .bg-hov2{
+            
+            .bg2{
+            
+             height:  700px !important;
+           
+            }
+          
+          }
+          .bg-hov3{
+          
+          
+            .bg3{
+              
+              height: 700px !important;
+              
+           
+            }
+          
+          }
+          .karusel-box{
+            top: 200px !important;
+            
+          .stars{
+         
+            font-size: .7rem !important;
+           
+          }
+            h4{
+              
+                font-size: .7rem !important;
+                letter-spacing: .3rem !important;
+            }
+        
+            h1{
+               
+                font-size: 3rem !important;
+                padding: 5px !important;
+             
+                margin-bottom: 15px !important;
+                letter-spacing: .8rem !important;
+            }
+          
+               }
+               .hero1{
+                .stars{
+                
+                font-size: .7rem;
+            
+                }
+                .heromaintext{
+                  
+                  font-size: 15px;
+              
+                 
+                  letter-spacing: .2rem;
+                }
+                .text{
+               
+                  font-size: 12px;
+                  margin: 0 0 15px;
+                  
+                }
+            .herotxtlittle{
+             
+              font-size: 38px;
+             
+              letter-spacing: .2rem;
+            }
+                
+              
+                .phone-icon{
+                  display: none;
+                 }
+                 .resar{
+                 display: none;
+                 }
+                 .phone-number{display: none;}
+               }
+               .promotional-background{
+                height: 60vh !important;
+                .promhover{height: 60vh !important;
+                  .name-hotel{
+                    font-size: 12px !important;
+                    letter-spacing: 3px;
+                }
+                .promotional-text{
+                    font-size:30px !important;
+                
+                }
+                }
+                
+               }
+               .service-text1{
+                font-size: .9rem;
+               }
+               .service-text2{
+               
+            font-size: 2.6rem;
+           
+              }
+              .image{
+             
+              width : 230px !important;
+              height : 170px !important;
+              }   
+              .featur-title  {
+                font-size: 16px;
+              
+              }   
+              .featur-desc{
+                margin-top: 17px;
+                font-size: 14px;
+              }
+        }
+        @media only screen and (min-width:$large)  and (max-width: $xlarge) {
+          .room-text2{
+          font-size: 3.3rem !important;
+          }
+            .head{
+             
+            
+             .nav-btn{
+               
+                 font-size: 1.4rem !important;
+                
+             }
+             .aside-menu{
+           width: 38%;
+                gap: 1.2rem !important;
+                .nav-close{
+                      
+                 width: 35px;
+                 height: 35px;
+                 margin-left:300px !important;
+               
+                 
+             }
+             .a{
+                 
+                 font-size: 1.3rem !important;
+                 
+                 margin-left: 35px;
+                 
+                }
+                .modebtn{
+                 
+                 font-size: 1.2rem !important;
+                 width: 45px;
+                 height: 30px;
+                 margin-left: 80px;
+         
+                }
+                .phone-icon{
+                 
+                 font-size: 1.2rem !important;
+                }
+                .resar{
+                 font-size: 1.2rem !important;
+               
+                }
+                .phone-number{ 
+                 font-size: 1.3rem !important;
+                 }
+             }
+             
+             }
+             .bg-hov1{
+     
+                .bg1{
+                  
+                  height: 800px !important;
+                 
+                }
+              
+              }
+              .bg-hov2{
+                
+                .bg2{
+                
+                 height:  800px !important;
+               
+                }
+              
+              }
+              .bg-hov3{
+              
+              
+                .bg3{
+                  
+                  height: 800px !important;
+                  
+               
+                }
+              
+              }
+              .karusel-box{
+                top: 230px !important;
+                
+              .stars{
+             
+                font-size: .7rem !important;
+               
+              }
+                h4{
+                  
+                    font-size: .7rem !important;
+                    letter-spacing: .3rem !important;
+                }
+            
+                h1{
+                   
+                    font-size: 5rem;
+                    padding: 5px !important;
+                 
+                    margin-bottom: 15px !important;
+                    letter-spacing: .8rem !important;
+                }
+              
+                   }
+                   .hero1{
+                    .stars{
+                    
+                    font-size: .7rem;
+                
+                    }
+                    .heromaintext{
+                      
+                      font-size: 17px !important;
+                  
+                     
+                      letter-spacing: .2rem;
+                    }
+                    .text{
+                   
+                      font-size: 20px;
+                    
+                      
+                    }
+                .herotxtlittle{
+                 
+                  font-size: 3.1rem !important;
+                 
+                  letter-spacing: .8rem;
+                }
+                .heroimg1{width: 500px !important;
+                  height: 430px !important;
+                margin-right: 30px;
+                
+                margin-top: 45px;}
+                .heroimg2{
+                  width: 500px !important;
+                  height: 430px !important;
+                  
+                }
+                .phone-icon{
+               
+                  font-size:2.1rem!important;
+                  margin-bottom: 18px;
+                 }
+                 .resar{
+                  font-size: 1.4rem !important;
+                  
+                 
+                 }
+                 .phone-number{ 
+                  font-size: 1.6rem;
+                  }
+               
+                    
+                 
+                   }
+                   .promotional-background{
+                    height: 60vh !important;
+                    .promhover{height: 60vh !important;
+                      .name-hotel{
+                        font-size: 12px !important;
+                        letter-spacing: 3px;
+                    }
+                    .promotional-text{
+                        font-size:3.3rem;
+                    
+                    }
+                    }
+                    
+                   }
+                   .service-text1{
+                    font-size: .8rem;
+                   }
+                   .service-text2{
+                   
+          font-size: 3.4rem !important;
+               
+                  }
+                  .image{
+                 
+                  width : 300px !important;
+                  height : 180px !important;
+                  }   
+                  .featur-title  {
+                    font-size: 20px;
+                  
+                  }   
+                  .featur-desc{
+                    margin-top: 27px;
+                    font-size: 18px;
+                  }
+
+                  .sliders{
+          
+                    .service-heading1-text{
+                     
+                      font-size: 15px;
+                     
+                  
+                    }
+                    .service-heading2-text{
+                    margin-top: 10px;
+                      font-size: 3.3rem !important;
+                    }
+                    .detail{
+                      font-size: 18px;
+                      color: #8d8d8d;
+                      font-family:'Barlow', sans-serif ;
+                    }
+                    .phone-icon{
+                   
+                      font-size: 1.9rem !important ;
+                      margin-bottom: 18px;
+                     }
+                     .resar{
+                    
+                      font-size: 1.6rem !important;
+                 
+                     
+                     }
+                     .phone-number{ 
+                      font-size: 1.5rem;
+                      }
+                  }
+            } 
+
+

@@ -1,0 +1,47 @@
+
+.contact{ margin-top: 180px !important;
+    
+  .con-title{
+      font-size: 1.7rem;
+      font-family: "Barlow",serif;
+      color: #222222;
+  }
+  .con-det{
+      font-size:.9rem;
+      font-family: "Barlow",serif;
+      color: #222222;
+  }
+  .phone-icon{
+      color: #AA8453;
+      font-size: 1.8rem ;
+      margin-bottom: 18px;
+      
+     }
+     .resar{
+      color: #222222;
+      font-size: 1.1rem;
+      font-family: 'Barlow', sans-serif;
+     
+     }
+     .phone-number{ color: #AA8453;
+      font-size: 1rem;
+      font-family: 'Barlow', sans-serif;}
+  .review{
+      outline: none;
+      border: none;
+      border-bottom: 1px solid #000;
+  
+  }
+  .sendbtn{
+      background-color: #AA8453 !important; 
+      width: 150px;
+      color: #fff !important;
+      font-weight: bold;
+  
+  }
+}
+.maps{
+  
+    filter: grayscale(1);
+  
+}

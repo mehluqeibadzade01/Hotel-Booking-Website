@@ -1,0 +1,41 @@
+$background-color_1: #337bb2;
+.discover{
+    width: 100%;
+    background-color: #fff;
+    .bg{
+       padding: 30px;
+        background-color: hsl(38, 36%, 96%);
+        .discover-text1{
+            font-size: .8rem;
+            color: #222222;
+            font-family: 'Barlow-Condensed',serif;
+        }
+        .discover-text2{
+            font-size: 2.7rem !important;
+            color: #222222;
+            font-family: 'Gilda-Display',serif !important;
+        }
+        .about-text{
+            font-size: 1rem;
+            color: #222222;
+            font-family: 'Barlow',serif;
+        }
+        .learn-btn{
+        font-family: 'Barlow',serif;}
+    }
+    .test-shine{
+        -webkit-mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+        mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+        -webkit-mask-size: 800%;
+        mask-size: 800%;
+        -webkit-mask-position: 0;
+        mask-position: 0;
+        &:hover {
+            transition: mask-position 2s ease,-webkit-mask-position 2s ease;
+            -webkit-mask-position: 120%;
+            mask-position: 120%;
+            opacity: 1;
+        }
+    }
+    
+}

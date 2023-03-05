@@ -1,0 +1,324 @@
+$xs:200px;
+$small:576px;
+$medium:768px;
+$large: 992px;
+$xlarge:2500px;
+
+@media only screen and (min-width:$xs) and (max-width: $small) {
+    .date-background{
+        
+       .search-text1{
+       
+          font-size: .6rem;
+          letter-spacing: 2px;
+       }
+        .search-text2{
+        font-size: 2.1rem;
+        }
+       .date-general-box{
+        width: 100%;
+        height: 100px;
+        
+        .date-box{ 
+            width: 100% !important;;
+          .dt{
+            height: 40px;
+            border: 1px solid #eeeeee;
+           border-radius: 4px;
+           font-size: 16px;
+           font-family:"Gilda-Display",serif;
+           color:#222222;
+        option{&:hover{background: #AA8453 !important;}}
+          }
+        }
+        .check-button{
+      
+         
+          height: 20px;
+          width: 70px;
+           
+      
+        }
+        
+       }
+      
+       
+      }
+      .bg-testmionals{
+        height: 90vh;
+        .bg-hover{
+            height: 90vh;
+            .text1{
+                font-size: 7px;}
+                .text2{
+                    font-size: 2rem;}
+        }
+      }
+      .sect{ height: 40vh !important;
+        .common-section{
+           
+            height: 40vh;
+           
+            .hotel{
+                font-size: .7rem;
+                color: #fff;
+                top: 100px;
+                position: absolute;
+                letter-spacing: .3rem;
+               font-family: 'Barlow Condensed',serif;
+            }
+            h2{
+             position: absolute;
+                color: #fff;
+               margin-top: 130px;
+               font-size: 2.9rem;
+               font-family: 'Gilda-Display',serif;
+            }
+        }
+    
+    }
+    .table{overflow-y: scroll !important;
+    
+      th{
+       
+          font-size: 19px;
+     
+      
+      }
+      td{
+          
+          font-size: 16px;
+    
+    
+      }
+  
+  }
+
+  .total{
+      font-size: 19px !important;
+    
+  }
+  
+  
+ 
+  .emptytext{
+      font-size: 2rem !important;
+      
+  }
+
+    .contact{ margin-top: 180px !important;
+    
+      .con-title{
+          font-size: 1.4rem !important;
+        
+      }
+      .con-det{
+          font-size:.7rem !important;
+       
+      }
+      .conicon{
+        margin-left: 0;
+        .phone-icon{
+         
+          font-size: 1.5rem !important;
+      margin-bottom: 0;
+          
+         }
+         .resar{
+         
+          font-size: 1.1rem;
+          
+         
+         }
+         .phone-number{
+          font-size: 1.3rem;
+    }
+      }
+    
+     
+      .sendbtn{
+         
+          width: 120px;
+          
+      
+      }
+    }
+    .bg{
+      padding: 30px;
+       background-color: hsl(38, 36%, 96%);
+       .discover-text1{
+           font-size: .6rem;
+           color: #222222;
+           font-family: 'Barlow-Condensed',serif;
+       }
+       .discover-text2{
+           font-size: 5rem !important;
+           
+       }
+       .about-text{
+           font-size: .9rem;
+         
+       }}
+}
+@media only screen and (min-width:$small) and (max-width: $medium) {
+  
+    .bg-testmionals{
+      height: 90vh;
+      .bg-hover{
+          height: 90vh;
+          .text1{
+              font-size: 7px;}
+              .text2{
+                  font-size: 2.7rem;}
+      }
+    }
+    .sect{ height: 40vh !important;
+      .common-section{
+         
+          height: 40vh;
+         
+          .hotel{
+              font-size: .7rem;
+              color: #fff;
+              top: 100px;
+              position: absolute;
+              letter-spacing: .3rem;
+             font-family: 'Barlow Condensed',serif;
+          }
+          h2{
+           position: absolute;
+              color: #fff;
+             margin-top: 130px;
+             font-size: 2.9rem;
+             font-family: 'Gilda-Display',serif;
+          }
+      }
+  
+  }
+}
+@media only screen and (min-width:$large) and (max-width: $xlarge) {
+
+    .bg-testmionals{
+      height: 100vh;
+      .bg-hover{
+          height: 100vh;
+          .text1{
+              font-size: 7px;}
+              .text2{
+                  font-size: 3rem;}
+      }
+    }
+    .sect{ height: 60vh !important;
+      .common-section{
+         
+          height: 60vh;
+         
+          .hotel{
+              font-size: .9rem !important;
+              color: #fff;
+              top: 150px;
+              position: absolute;
+              letter-spacing: .3rem;
+             font-family: 'Barlow Condensed',serif;
+          }
+          h2{
+           position: absolute;
+              color: #fff;
+             margin-top: 180px;
+             font-size: 4.5rem;
+             font-family: 'Gilda-Display',serif;
+          }
+      }
+  
+  }
+
+
+  .discover{
+    width: 100%;
+    
+    background-color: beige;
+    .bg{
+       
+        background-color: hsl(38, 36%, 96%);
+        .discover-text1{
+            font-size: .9rem;
+            color: #222222;
+            font-family: 'Barlow-Condensed',serif;
+        }
+        .discover-text2{
+            font-size: 2.8rem !important;
+          
+        }
+        .about-text{
+            font-size:1.1rem;
+        
+        }
+        
+    }
+}
+.search-text1{
+  margin-top: 150px !important;
+  font-family: 'Barlow Condensed',serif;
+    font-size: 1rem !important;
+    padding-top:50px ;
+    letter-spacing: 3px;
+ }
+  .search-text2{font-family: 'Gilda Display', serif;
+  font-size: 3.3rem !important;
+  color: #222222;}
+  .date-general-box{
+
+    
+ 
+   
+    .date-box{
+      .dt{
+       
+       font-size: 23px !important;
+       
+
+      }
+    }
+    .check-button{
+  
+      font-size: 20px !important;
+    }
+    
+   }
+   .contact{ margin-top: 180px !important;
+    
+    .con-title{
+        font-size:2.8rem !important;
+        font-family: 'Gilda-Display';
+        color: #a07c4c;
+      
+    }
+    .con-det{
+        font-size:1.1rem !important;
+        font-family: 'Barlow-Condensed';
+     
+    }
+    .phone-icon{
+       
+        font-size: 1.8rem !important;
+    margin-bottom: 0;
+        
+       }
+       .resar{
+        font-family: 'Barlow-Condensed';
+        font-size: 1.3rem !important;
+        
+       
+       }
+       .phone-number{
+        font-size: 1.3rem;
+  }
+   
+    .sendbtn{
+       margin-top: 100px !important;
+        width: 120px;
+        
+    
+    }
+  }
+}

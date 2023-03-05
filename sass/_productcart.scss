@@ -1,0 +1,89 @@
+.prod{
+    .wrapper{  
+    height: 400px;
+    overflow: hidden ;
+   box-sizing: border-box;
+  position: relative;
+  
+    .proimg{
+        &:hover{
+        transform: scale(1.2);
+        filter:brightness(.7);
+    }
+    
+    position: absolute;
+     width: 450px;
+     cursor: pointer;
+     object-fit: cover;
+     height: 100%;
+     transition: all 1s;
+}
+.procontent{
+    height: auto;
+width: 100%;
+    position: absolute;
+    z-index: 9;
+    bottom: 5px;
+    left: 7px;
+.title{font-size:1.4rem;
+    
+font-family:'Gilda Display', serif ;
+color: #fff;}
+    .card-text
+    { font-family: 'Barlow Condensed', serif;
+        letter-spacing: 2px;
+        font-size: 1.1rem;
+        color: #fff;
+    }
+   
+      .wish{
+        position: absolute;
+        left: 0;
+        top: -250px;
+        font-size: 1.2rem;
+        background: transparent;
+        z-index: 1000000000000;
+        border: 0;outline: none;
+    }
+    
+}
+
+
+   
+    
+}
+.btnbook{
+   
+
+ border: 1px solid #88683e;
+    color: #88683e;
+    
+    outline: none;
+    
+    font-size: 1.3rem;
+    background: transparent;
+    bottom: 5px;
+}
+
+.btndetails{
+   
+     
+      outline: none;
+      border: none;
+      font-size: 1.3rem;
+      background: transparent;
+      bottom: 5px;
+      a{ 
+          text-decoration: underline #88683e;
+          color: #88683e;
+          
+  
+      }
+  
+  }
+        
+     
+   
+
+}
+ 

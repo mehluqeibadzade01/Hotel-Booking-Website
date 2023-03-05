@@ -1,0 +1,154 @@
+{
+    "b1":{
+       
+        "navlink1":"Ana Sehife",
+        "navlink2":"Haqqımızda",
+        "navlink3":"Əlaqə",
+        "navlink4":"Restoran",
+        "navlink5":"Otaqlar",
+        "navlink6":"Xəbərlər"
+
+    },
+    "carousel":{
+       
+
+        "slider1":"Lüks Təcrübədən zövq alın",
+        "slidersm1":"Lüks Otel & Ən yaxşı istirahət",
+        "slider2":"Sizin üçün mükəmməl tətil",
+        "slidersm2":"İstirahət etmək və həzz almaq üçün unikal məkan.",
+        "slider3":"Həyatın ən yaxşı anlarından həzz alın",
+        "slidersm3":"Son Lüks Təcrübə",
+        "sliderbtn":"Otaqlar&Suitlər"
+    
+    
+    
+    
+    }
+,
+
+ "home2":{
+       
+
+    "name1":"Cappa Lüks Otel",
+    "name2":"Lüks Təcrübədən zövq alın",
+    "name3":"Nyu Yorkdakı ən yaxşı beşulduzlu lüks otelə xoş gəlmisiniz. Otel elementləri səxavətlə dolu olan aucan vestibulum aliquam justo suesue. Bu gözəl məxməri var. Donec id vəlit ac arcu posuere blane.Otel, aucan ligula sceisue, heç bir elementi olmayan bir yerdir. Orci müxtəlif natoque penatibus və magnis disparturient monte nascete ridiculus bu nelllentesque yaşayış morbine.",
+    "name4":"Rezervasiya",
+    "name5":"Ən yaxşı qiymətlər",
+    "name6":"Əlavə Xidmətlər",
+    "name7":"Ən yaxşı qiymətlər . The utanislen quam nestibulum ac quame odion elementum sceisue the aucan.Orci varius natoque penatibus et magnis disney parturient monte nascete ridiculus mus nellen etesque habitant morbine.",
+    "name8":"günlük",
+    "name9":"Otaqda Səhər yeməyi",
+    "name10":"Otaq təmizliyi",
+    "name11":"Otaq&təhlükəsizlik",
+    "name12":"İçkilər",
+    "exp":"Araşdırma",
+    "email":"Email məlumatı",
+    "adr":"Ünvan",
+    "sendbtn":"Mesaj Göndər",
+    "featur1":"Bizim Xidmətlərimiz",
+    "featur2":"Otel xitmətləri"
+
+
+
+
+}
+, "buttons":{
+       
+
+    "btna":"Hamısı",
+    "btnf":"Ailə",
+    "btns":"Tək Otaq",
+    "btnd":"Lüks Otaq"
+    
+
+
+
+
+}
+, "cart":{
+       
+
+    "emptycart":"Sizin səbətiniz boşdur",
+    "click":"Klik edin və davam edin",
+    "emptyfav":"Tək Otaq",
+    "imag":"Şəkil",
+    "title":"Ad",
+    "qiymət":"Price",
+    "say":"Say",
+    "delet":"Silmək",
+    "clear":"Hamısını təmizlə"
+    ,
+    "sub":"Təsdiqlə",
+    "log":"Almaq üçün Qeydiyyat",
+    "total":"Ümumi qiymət"
+
+
+
+
+
+}
+, "products":{
+       
+
+    "detail":"Detallar",
+    "book":"Sifariş"
+    
+
+
+
+
+}
+,"check":{
+       
+
+    "search":"Otaq Axtarışı",
+    "chen":"İndi Yoxla",
+    "a1":"1Yetişkin",
+    "a2":"2Yetişkin",
+    "a3":"3Yetişkin",
+    "a4":"4Yetişkin",
+    "r1":"1Otaq",
+    "r2":"2Otaq",
+    "r3":"3Otaq",
+    "r4":"4Otaq",
+    "c1":"Uşaq",
+    "c2":"1Uşaq",
+    "c3":"2Uşaq",
+    "c4":"3Uşaq",
+    "chbtn":"İndi Yoxla"
+
+
+
+}
+,"Test":{
+       
+
+    "say":"Müştərilərimiz nə deyir?",
+    "gues":"Qonaq rəyi"
+    
+    
+
+
+
+
+}
+,"discover":{
+       
+
+    "disc":"KƏŞF",
+    "res":"Restoran",
+    "btn":"Daha çox öyrən",
+    "exp":"TƏCRÜBƏLƏR",
+    "spa":"Spa Mərkəzi",
+    "mode":"MÜASİR",
+    "fit":"Fitness Mərkəzi",
+    "healt":"Sağlamlıq Klubu& Hovuz"
+    
+
+    
+    
+
+
+
+
+}}

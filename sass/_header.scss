@@ -1,0 +1,85 @@
+
+.head{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+header{margin-top: 25px;
+    
+        .logo{
+            width: 45%;
+           
+        }
+        .nav-btn{
+            color: #AA8453;
+            font-size: 1.3rem;
+            cursor: pointer;
+        }
+       
+        .aside-menu{    
+            
+           display: flex;
+           flex-direction: column;
+           position: fixed;
+           top: 0px;
+           right: 0px;
+           height: 100vh;
+           width: 30%;
+           justify-content: center;
+           gap: 1.3rem;
+           background-color: white;
+           transform: translateY(-200vw);
+          
+           transition: .7s;
+           .nav-close{
+             
+               width: 50px;
+               height: 50px;
+               margin-left:320px;
+             
+               
+           }
+           .a{
+            font-family: 'Barlow', sans-serif;
+            font-weight: normal;
+            color: #000;
+            font-size: 1.3rem ;
+            cursor: pointer;
+            margin-left: 40px;
+            border-bottom:1px solid rgb(247, 245, 245) ;
+           }
+           .modebtn{
+            background-color: #AA8453;
+            color: #fff;
+            font-size: 1.1rem;
+            outline: none;
+            border-radius: 15px;
+            width: 90px;
+            height: 50px;
+            margin-left: 80px;
+
+           }
+           .phone-icon{
+            color: #AA8453;
+            font-size: 1.7rem ;
+           }
+           .resar{
+            font-size: 1.1rem;
+            font-family: 'Barlow', sans-serif;
+           }
+           .phone-number{ color: #AA8453;
+            font-size: 1.7rem;
+            font-family: 'Barlow', sans-serif;}
+        }
+        .responsive_nav{
+            transform: none !important;
+          transition: .7s;
+         
+        }
+       
+        
+    }
+    
+}
+
+

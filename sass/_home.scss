@@ -1,0 +1,290 @@
+
+.bg-hov1{
+  object-fit: scale-down;
+  
+
+  background: url(../images/slider3.jpg) no-repeat center center ;
+  background-size: cover;
+  .bg1{
+    width: 100%;
+    height: 800px;
+    background: rgba(0, 0, 0, .4);
+  }
+
+}
+.bg-hov2{
+  object-fit: scale-down;
+ 
+  background: url(../images/slider2.jpg)  no-repeat center center ;
+  background-size: cover;
+  .bg2{
+    width: 100%;
+   height:  800px;
+    background: rgba(0, 0, 0, .4);
+  }
+
+}
+.bg-hov3{
+ object-fit: scale-down;
+
+  background: url(../images/slider1.jpg)  no-repeat center center;
+  background-size: cover;
+
+  .bg3{
+    width: 100%;
+    height: 800px;
+    
+    background: rgba(0, 0, 0, .4);
+  }
+
+}
+  
+
+
+
+  .karusel-box{
+    top: 220px;
+    
+  .stars{
+    color: #E4A853;
+    font-size: .8rem;
+   
+  }
+    h4{
+      font-family: 'Gilda Display', serif;
+        font-size: .8rem;
+        letter-spacing: .3rem;
+    }
+
+    h1{
+       font-family: 'Gilda Display', serif;
+        font-size: 4.05rem ;
+        padding: 5px;
+     
+        margin-bottom: 15px;
+        letter-spacing: .9rem;
+    }
+  
+        .roombtn{
+            border: 1px solid white;
+        }}
+
+   .hero1{
+    .stars{
+      color: #E4A853;
+    font-size: .9rem;
+  font-weight: 500;
+    }
+    .heromaintext{
+      font-family: 'Barlow Condensed', serif;
+      font-size: 15px;
+      color: #666666;
+      margin:0px 0px 5px ;
+     
+      letter-spacing: .3rem;
+    }
+    .text{
+      font-family:  serif;
+      color: #8d8d8d;
+      font-size: 16px;
+      margin: 0 0 15px;
+      
+    }
+.herotxtlittle{
+  font-family: 'Gilda Display', serif;
+  font-size: 45px;
+  color: #222222;
+  font-weight: normal !important;
+  letter-spacing: .3rem;
+}
+    
+    .heroimg1{width: 340px;
+      height: 330px;
+    margin-right: 30px;
+    margin-top: 45px;}
+    .heroimg2{
+      width: 340px;
+      height: 330px;
+      
+    }
+    .phone-icon{
+      color: #AA8453;
+      font-size: 1.7rem ;
+      margin-bottom: 18px;
+     }
+     .resar{
+      font-size: 1.1rem;
+      font-family: 'Barlow', sans-serif;
+     
+     }
+     .phone-number{ color: #AA8453;
+      font-size: 1.5rem;
+      font-family: 'Barlow', sans-serif;}
+   }
+
+.roomcont{
+  width: 100%;
+  background-color: #F8F5F0;
+
+  .btnroomfilter{
+    background-color: #222222;
+    color: #fff;
+    
+    outline: none;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  .room-text1{
+    font-family:  'Gilda Display', serif;
+    font-weight: 100;
+    font-size: .9rem;
+    letter-spacing: 3px;
+    color: #222222;
+    padding: 10px;
+
+  }
+  .room-text2{
+    
+    font-family: 'Gilda Display', serif;
+    font-size: 2.7rem;
+    color: #222222;
+ 
+   
+  }
+}
+.sliders{
+  background-color: #222222 ;
+  width: 100%;
+  .service-heading1-text{
+    color: #AA8453;
+    font-size: 15px;
+    font-family: 'Barlow Condensed', sans-serif;
+
+  }
+  .service-heading2-text{
+    font-family: 'Gilda Display', serif;
+    font-size: 2.7rem;
+  }
+  .detail{
+    font-size: 15px;
+    color: #8d8d8d;
+    font-family:'Barlow', sans-serif ;
+  }
+  .phone-icon{
+    color: #AA8453;
+    font-size: 1.7rem ;
+    margin-bottom: 18px;
+   }
+   .resar{
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: 'Barlow', sans-serif;
+   
+   }
+   .phone-number{ color: #AA8453;
+    font-size: 1.5rem;
+    font-family: 'Barlow', sans-serif;}
+}
+.promotional-background{
+  width: 100%;
+  height: 75vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/hotel.jpg);
+  .promhover{width: 100%;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, .7);
+    .promotional-star{
+    .stars{
+      color: #E4A853;
+    font-size: .9rem;
+  font-weight: 500;
+    }
+  }
+  .name-hotel{
+    font-family: 'Barlow ', serif;
+      font-size: 15px;
+letter-spacing: 4px;
+      color: #ffffff;
+      margin:0px 0px 5px ;
+      
+}
+.promotional-text{
+  font-size: 45px;
+  color: #fff;
+  font-family: 'Gilda Display', serif;
+  margin-top: 10px;
+}
+}
+  
+  }
+  .service-text1{font-family: 'Barlow Condensed',serif;
+    font-size: .9rem;
+    letter-spacing: 3px;}
+    .service-text2{
+      font-family: 'Gilda Display', serif;
+  font-size: 2.7rem;
+  color: #222222;
+    }
+  .featurbpx{margin-top: 30px;
+
+    .featur{&:hover{
+      height : 320px;    
+      .content {
+       
+        visibility : visible;
+        opacity : 1;
+        transition-delay: 0.2s;
+       
+     }
+    }
+    margin-bottom: 30px !important;
+      border: .1rem solid #eeeeee ;
+      position: relative;
+      display : flex;
+      height : 215px;
+  flex-direction : column;
+  box-shadow : 0 3px 10px rgba(0,0,0,0.3);
+  transition : 0.3s ease-in-out;
+  border-radius : 15px;
+  .image{
+    position : relative;
+  width : 260px;
+  height : 200px;
+  
+
+  left: 8px;
+  box-shadow : 0 2px 10px rgba(0,0,0,0.1);
+  z-index : 1;
+  .feature-img{
+    max-width : 100%;
+  border-radius : 15px;
+  }
+  .featur-title{
+    color: #AA8453;
+    font-family: 'Gilda Display', serif;
+    position: relative;
+   }
+  }
+  .content {
+    position : relative;
+    top : -100px;
+    padding : 10px 15px;
+    color : #111;
+    text-align : center;
+    
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+     
+   
+     .featur-desc{ .service-text1{font-family: 'Barlow',serif;
+      color: #222222;}
+    }
+  }
+     
+  }
+}

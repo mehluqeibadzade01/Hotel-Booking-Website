@@ -1,0 +1,38 @@
+.card{&:hover{.card-bod{right: 0;transition: .7s;}}
+    border-radius:20px ;
+    overflow: hidden;
+    position: relative;
+    transition: 1s;
+    .card-img{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+    .card-bod{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: -100%;
+        position: absolute;
+        background: #1f3d4742;
+        backdrop-filter: blur(5px);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: end;
+        .card-tit{
+            font-size: 2rem;
+            color: #fff;
+            font-family: "Gilda-Display",serif;
+        }
+        .subtitle{
+            color: #fff;
+            font-family: "Barlow-Condensed",serif;
+        }
+        .mail{
+            color: #fff;
+            font-family: "Barlow-Condensed",serif;
+        }
+    }
+
+}

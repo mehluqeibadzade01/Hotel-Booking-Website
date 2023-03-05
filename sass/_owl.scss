@@ -1,0 +1,31 @@
+.crd{border: 0;
+    .name{
+        color:#222222;
+        font-size: 24px;
+        margin: 0px 0px 20px;
+        font-family: 'Gilda Display', serif;
+    }
+    .amount{
+        color: #AA8453;
+        font-size: 45px;
+        font-family: 'Gilda Display', serif;
+        span{
+            font-size: 15px;
+            color: #222222;
+        }
+        
+    }
+    .list-price{
+        color: #666666;
+        font-size: 15px;
+        font-family: "Barlow Condensed" serif;
+        i.ok{
+            margin-right: 6px;
+            color: #AA8453 !important;
+        }
+        .x{
+            margin-right: 6px;
+            color: #666666; 
+        }
+    }
+}

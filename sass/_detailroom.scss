@@ -1,0 +1,97 @@
+.detailroom{
+    object-fit:cover;
+   width: 100%;
+    height: 75vh;
+}
+.full-card{
+    .detailphoto{
+        height: 270px;
+        width: 400px;
+        border-radius: 5px;
+        margin-bottom: 10px !important;
+        display: block;
+      
+    }
+    .luxury{
+        font-size: .9rem;
+        font-family: 'Barlow-Condensed',serif;
+        letter-spacing: 3px;
+    }
+.det-title{
+    font-size: 1.5rem;
+    color: #AA8453;
+        font-family: 'Gilda-Display',serif;
+        letter-spacing: 3px;
+}
+p{
+    font-size: 1rem;
+    font-family: 'Barlow-Condensed';
+}
+h6{
+    font-size: 1.2rem;  
+    font-family: 'Barlow-Condensed';
+    color: #AA8453;
+}
+}
+.releatedroom{
+    width: 100%;
+    background-color: #222 ;
+    padding: 20px;
+
+    .simitext{
+        font-size: 2.4rem;
+        color: #fff;
+            font-family: 'Gilda-Display',serif;
+    }
+}
+.tabs{
+    border-bottom:1px solid #fde4e4 ;
+}
+.tabs h6{
+    cursor: pointer;
+}
+.tab-content p{
+    line-height: 30px;
+    color: #212245;
+}
+.tab-active{
+   color: #df2020; 
+}
+.tab-content{
+    padding: 30px 0px;
+
+
+}
+.form{
+    width: 60%;
+    margin: auto;
+    background: #fde4e4;
+    border-radius: 5px;
+    padding: 20px;
+}
+.form-group{
+    margin-bottom: 30px;
+    .form-group input, .form-group textarea{
+        width: 100%;
+        background: transparent;
+        padding: 7px 20px;
+        border: none;
+        border-bottom: 1px solid #2122454c;
+   }
+   .user-name{
+    font-weight: 600;
+    color: #212245;
+}
+.user-email{
+    font-size: .8rem;
+}
+.feedback-text{
+    color: #212245b6;
+}
+.img-item{cursor: pointer;
+
+}
+}
+
+
+

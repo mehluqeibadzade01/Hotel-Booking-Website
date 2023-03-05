@@ -1,0 +1,153 @@
+{
+    "b1":{
+       
+        "navlink1":"Home",
+        "navlink2":"About",
+        "navlink3":"Contact",
+        "navlink4":"Restaruant",
+        "navlink5":"Rooms&Suits",
+        "navlink6":"News"
+
+    }
+, "carousel":{
+       
+
+    "slider1":"Enoy a Luxury Experience",
+    "slidersm1":"Luxury Hotel & Best Resort",
+    "slider2":"The Perfect   Base For You",
+    "slidersm2":"Unique Place to Relax & Enjoy.",
+    "slider3":"Enjoy The Best  Moments of Life",
+    "slidersm3":"The Ultimate Luxury Experience",
+    "sliderbtn":"Rooms&Suits"
+
+
+
+
+}
+, "home2":{
+       
+
+    "name1":"Cappa Luxury Hotel",
+    "name2":"Enjoy a Luxury Experience",
+    "name3":"Welcome to the best five-star deluxe hotel in New York. Hotel elementum sesue the aucan vestibulum aliquam justo in sapien rutrum volutpat. Donec in quis the pellentesque velit. Donec id velit ac arcu posuere blane. Hotel ut nisl quam nestibulum ac quam nec odio elementum sceisue the aucan ligula. Orci varius natoque penatibus et magnis dis parturient monte nascete ridiculus mus nellentesque habitant morbine.",
+    "name4":"Resarvation",
+    "name5":"BEST PRICES",
+    "name6":"Extra Services",
+    "name7":"The best prices for your relaxing vacation. The utanislen quam nestibulum ac quame odion elementum sceisue the aucan.Orci varius natoque penatibus et magnis disney parturient monte nascete ridiculus mus nellen etesque habitant morbine.",
+    "name8":"Daily",
+    "name9":"Room Breakfast",
+    "name10":"Room Cleaning",
+    "name11":"Room&Safe",
+    "name12":"Drinks Included",
+    "exp":"Explore",
+    "email":"Email İnfo",
+    "adr":"Adress",
+    "sendbtn":"Send Message",
+"featur1":"OUR SERVICES",
+"featur2":"Hotel Facilities"
+
+
+}
+, "buttons":{
+       
+
+    "btna":"ALL",
+    "btnf":"Family",
+    "btns":"Single Room",
+    "btnd":"Deluxe Room"
+    
+
+
+
+
+},
+ "cart":{
+       
+
+    "emptycart":"Your Cart is Empty",
+    "click":"Click here and continue",
+    "imag":"İmage",
+    "title":"Name",
+    "qiymət":"Price",
+    "say":"count",
+    "delet":"Delete",
+    "clear":"Clear All"
+    ,
+    "sub":"Submit",
+    "log":"Login for buy",
+    "total":"Total Price"
+
+    
+
+
+
+
+},
+
+
+"products":{      
+
+    "detail":"Details",
+    "book":"Book"
+    
+    
+
+
+
+
+}
+,"check":{
+       
+
+    "search":"Search Rooms",
+    "chen":"CHECK NOW",
+    "a1":"1Adult",
+    "a2":"2Adult",
+    "a3":"3Adult",
+    "a4":"4Adult",
+    "r1":"1Room",
+    "r2":"2Rooms",
+    "r3":"3Rooms",
+    "r4":"4Rooms",
+    "c1":"children",
+    "c2":"1Children",
+    "c3":"2Children",
+    "c4":"3Children",
+    "chbtn":"CHECK NOW"
+
+
+
+}
+,"Test":{
+       
+
+    "say":"What Client's Say?",
+    "gues":"Guest Review"
+    
+    
+
+
+
+
+}
+,"discover":{
+       
+
+    "disc":"DISCOVER",
+    "res":"The Restaurant",
+    "btn":"Learn More",
+    "exp":"EXPERIENCES",
+    "spa":"Spa Center",
+    "mode":"MODERN",
+    "fit":"Fitness Center",
+    "healt":"The Health Club & Pool"
+    
+
+    
+    
+
+
+
+
+}
+}

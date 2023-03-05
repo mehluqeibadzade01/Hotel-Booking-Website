@@ -1,0 +1,84 @@
+$xs:200px;
+$small:576px;
+$medium:768px;
+$large: 992px;
+$xlarge:1200px;
+@media only screen and (min-width:$xs) and (max-width: $small) {
+    .crd{border: 0;
+        .name{
+           
+            font-size: 18px;
+            margin: 0px 0px 20px;
+         
+        }
+        .amount{
+           
+            font-size: 38px;
+            
+            span{
+                font-size: 12px;
+                
+            }
+            
+        }
+        .list-price{
+         
+            font-size: 12px;
+            
+           
+        }
+    }
+    .service-heading1-text{
+        font-size: 11px;
+    }
+    .service-heading2-text{
+        font-size: 2.1rem;
+    }
+    .phone-icon{font-size:.7rem !important;
+    margin: 0px;}
+    .resar{font-size:1.1rem !important;}
+    .phone-number{font-size:1.1rem !important;}
+}
+@media only screen and (min-width:$small)  and (max-width: $medium) {
+    .crd{
+        .name{
+           
+            font-size: 20px;
+            margin: 0px 0px 20px;
+         
+        }
+        .amount{
+           
+            font-size: 40px;
+            
+            span{
+                font-size: 15px;
+                
+            }
+            
+        }
+        .list-price{
+         
+            font-size: 15px;
+            
+           
+        }
+    }
+    .service-heading1-text{
+        font-size: 15px;
+    }
+    .service-heading2-text{
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (min-width:$medium)  and (max-width: $large) {
+.service-heading2-text{
+    font-size: 2.6rem;
+}}
+@media only screen and (min-width:$large)  and (max-width: $xlarge) {
+    
+    .service-heading2-text{
+        font-size: 2.7rem;
+    }
+}
+
